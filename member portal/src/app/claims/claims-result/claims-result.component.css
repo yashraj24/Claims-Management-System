@@ -1,0 +1,28 @@
+.billrow--detail {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2px 100px 40px 30px;
+  }
+  .bill--tag {
+  margin-left: 30px;
+  }
+
+  .card{
+    background-color: black;
+    color: white;
+  }
+
+  .card-title{
+  margin-bottom:2.5rem!important ;
+  }
+  .statusrow--detail {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 100px 40px 30px;
+  }
+  .login{
+    background-image: url("wp4063160-plain-black-wallpapers.jpg");
+    height:100vh;
+  }

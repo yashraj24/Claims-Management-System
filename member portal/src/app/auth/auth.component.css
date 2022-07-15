@@ -1,0 +1,44 @@
+.global-container{
+ height:100%;
+ display:flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.card{
+  background-color: black;
+  color:white;
+}
+
+form{
+  margin-top: 30px;
+  padding-top: 10px;
+}
+.spinner {
+  position: absolute;
+  top: 30%;
+  left: 42%;
+}
+.btn-submit{
+  background-color: grey;
+  color: white;
+  border-radius: 25px;
+  padding: 6px 20px;
+}
+.btn-submit:hover{
+  background-color: #fff;
+  color: #6014a7;
+}
+.form-control{
+  
+  border-radius: 2rem !important;
+}
+.form-control:focus
+{
+  border-color: #cc68e0;
+  box-shadow: 0 0 0 0.2rem rgba(204, 180, 219, 0.959);
+}
+.login{
+  background-image: url("wp4063160-plain-black-wallpapers.jpg");
+  height:100vh;
+}

@@ -1,0 +1,140 @@
+section {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  background-image: url("src/assets/img/image-asset.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+h1 {
+  font-size: 55px;
+  line-height: 1.35;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.secure {
+  font-size: 26px;
+  text-decoration: underline;
+  font-style: italic;
+}
+h4 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 50px;
+  color: #fff;
+}
+
+.container {
+  margin: 130px 100px 0px 130px;
+}
+
+.header__title {
+  padding-bottom: 160px;
+}
+
+.header_img {
+  height: 400px;
+  width: 600px;
+}
+@media (min-width: 200px) and (max-width: 1000px) {
+  .header_img {
+    display: none;
+  }
+  .text-center {
+    justify-content: center;
+    margin-right: 15rem;
+  }
+}
+
+footer {
+  background-image: linear-gradient(
+    to bottom,
+    #561280,
+    #412079,
+    #2e2670,
+    #202964,
+    #182956,
+    #192a51,
+    #1b2a4d,
+    #1d2b48,
+    #212e4c,
+    #263050,
+    #2a3354,
+    #2f3558
+  );
+  height: 50px;
+  margin-top: auto;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.btn--text {
+  display: inline-block;
+  background: none;
+  font-size: 17px;
+  font-family: inherit;
+  font-weight: 500;
+  color: #f7f8fc;
+  border: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-top: 20px;
+  margin-left: 6rem;
+}
+
+.margin-grid-row {
+  margin-top: 100px;
+}
+
+/* section */
+
+/* features */
+
+.features__header {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer__nav {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.footer__item {
+  margin-right: 40px;
+}
+
+.footer__link {
+  font-size: 16px;
+  color: #eee;
+  text-decoration: none;
+}
+
+.footer__logo {
+  height: 50px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+}
+
+.footer__copyright {
+  font-size: 14px;
+  color: #aaa;
+  text-align: center;
+}
+
+.footer__copyright .footer__link {
+  font-size: 1.4rem;
+}
